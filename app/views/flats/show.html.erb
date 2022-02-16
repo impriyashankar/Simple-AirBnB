@@ -1,0 +1,18 @@
+
+<h2> <%= @flat.name %></h2>
+<p><%= @flat.address %></p>
+
+<div>
+  <h3>A bit more about this flat</h3>
+  <p><%= @flat.description %></p>
+</div>
+
+<div>
+  <h3>Details</h3>
+  <p><%= @flat.number_of_guests %><span> </span> <i class="fa-solid fa-euro-sign"></i><%= @flat.price_per_night %></p>
+
+</div>
+
+
+
+<%= link_to 'Back', flats_path %> |
